@@ -1,0 +1,421 @@
+{
+  "identifier" : "CDE91B50",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "650",
+      "familyShareable" : false,
+      "internalID" : "4EF485C8",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "甘草",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.kanzou",
+      "referenceName" : "甘草",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "200",
+      "familyShareable" : false,
+      "internalID" : "D0E4DD5C",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "桂皮",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.keihi",
+      "referenceName" : "桂皮",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "3000",
+      "familyShareable" : false,
+      "internalID" : "E341AD0B",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "人参",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.ninjin",
+      "referenceName" : "人参",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "640",
+      "familyShareable" : false,
+      "internalID" : "3FB67509",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "大棗",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.natume",
+      "referenceName" : "大棗",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "200",
+      "familyShareable" : false,
+      "internalID" : "8EEC3BE6",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "生姜",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.syoukyou",
+      "referenceName" : "生姜",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "600",
+      "familyShareable" : false,
+      "internalID" : "2D454EB6",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "竜眼肉",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.ryuganniku",
+      "referenceName" : "竜眼肉",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1000",
+      "familyShareable" : false,
+      "internalID" : "E24E71E8",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "枸杞子",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.kukoshi",
+      "referenceName" : "枸杞子",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "760",
+      "familyShareable" : false,
+      "internalID" : "160DFDAD",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "大茴香",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.daiuikyo",
+      "referenceName" : "大茴香",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "3200",
+      "familyShareable" : false,
+      "internalID" : "9A907AE3",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "ハトムギ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.hotomugi",
+      "referenceName" : "ハトムギ",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "12000",
+      "familyShareable" : false,
+      "internalID" : "BADA0CB5",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "紅花",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.kouka",
+      "referenceName" : "紅花",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1680",
+      "familyShareable" : false,
+      "internalID" : "62728253",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "ローズマリー",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.rosemaly",
+      "referenceName" : "ローズマリー",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "98000",
+      "familyShareable" : false,
+      "internalID" : "98CB7E7A",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "阿膠",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.akyou",
+      "referenceName" : "阿膠",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "12000",
+      "familyShareable" : false,
+      "internalID" : "55FC59C5",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "松の実",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.matsunomi",
+      "referenceName" : "松の実",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "25000",
+      "familyShareable" : false,
+      "internalID" : "1846B2C1",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "桑の実",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.kuwanomi",
+      "referenceName" : "桑の実",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "10800",
+      "familyShareable" : false,
+      "internalID" : "A429A1D5",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "菊花",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.kikuka",
+      "referenceName" : "菊花",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "25000",
+      "familyShareable" : false,
+      "internalID" : "693E2598",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "ジャスミン",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.jasumin",
+      "referenceName" : "ジャスミン",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "12000",
+      "familyShareable" : false,
+      "internalID" : "29F40DE5",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "山楂子",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.sanzashi",
+      "referenceName" : "山楂子",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4300",
+      "familyShareable" : false,
+      "internalID" : "7135CC87",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "陳皮",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.chinpi",
+      "referenceName" : "陳皮",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "10000",
+      "familyShareable" : false,
+      "internalID" : "E64BE726",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "たんぽぽの根",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.tanpoponone",
+      "referenceName" : "たんぽぽの根",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "15000",
+      "familyShareable" : false,
+      "internalID" : "272F45B7",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "とうもろこしの根",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.nanbanmou",
+      "referenceName" : "とうもろこしの根",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9900",
+      "familyShareable" : false,
+      "internalID" : "3CC750D7",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "車前子",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "herbal.syazenshi",
+      "referenceName" : "車前子",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_compatibilityTimeRate" : 6,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "ja",
+    "_storefront" : "JPN",
+    "_storeKitError" : 0,
+    "_timeRate" : 15
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "1327DCB5",
+      "localizations" : [
+
+      ],
+      "name" : "RegularDelivery",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1200",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "43310D9E",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "1ヶ月間、生薬のセットを定期配送(2週間分/1セット, 計2回)いたします。",
+              "displayName" : "1ヶ月プラン",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "herbal.delivery.1month",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "1ヶ月プラン",
+          "subscriptionGroupID" : "1327DCB5",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2200",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "D6217442",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "2ヶ月間、生薬のセットを定期配送(2週間分/1セット, 計4回)いたします。",
+              "displayName" : "2ヶ月プラン",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "herbal.delivery.2month",
+          "recurringSubscriptionPeriod" : "P2M",
+          "referenceName" : "2ヶ月プラン",
+          "subscriptionGroupID" : "1327DCB5",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3000",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "8034977D",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "3ヶ月間、生薬のセットを定期配送(2週間分/1セット, 計6回)いたします。",
+              "displayName" : "3ヶ月プラン",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "herbal.delivery.3month",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "3ヶ月プラン",
+          "subscriptionGroupID" : "1327DCB5",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
