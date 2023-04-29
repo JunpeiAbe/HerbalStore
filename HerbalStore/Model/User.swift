@@ -13,4 +13,8 @@ struct User:Decodable,Identifiable {
     var userName:String
     let email:String
     var profileImageURL: String?
+    
+    var userImageURL: URL? {
+        return URL(string: profileImageURL ?? "")
+    }
 }

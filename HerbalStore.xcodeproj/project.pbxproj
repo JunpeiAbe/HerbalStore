@@ -66,7 +66,6 @@
 		65FE3D84297667D7006A3A1F /* LikesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE3D83297667D7006A3A1F /* LikesItem.swift */; };
 		65FE3D8629766989006A3A1F /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE3D8529766989006A3A1F /* Address.swift */; };
 		65FE3D8829766DC3006A3A1F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 65FE3D8729766DC3006A3A1F /* FirebaseFirestoreSwift */; };
-		65FE3D8B29769CD6006A3A1F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 65FE3D8A29769CD6006A3A1F /* Kingfisher */; };
 		65FE3D8D2976A91F006A3A1F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE3D8C2976A91E006A3A1F /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
@@ -135,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65FE3D8B29769CD6006A3A1F /* Kingfisher in Frameworks */,
 				65FE3D8829766DC3006A3A1F /* FirebaseFirestoreSwift in Frameworks */,
 				65FE3D7429765B56006A3A1F /* FirebaseAuth in Frameworks */,
 				65FE3D7629765B5E006A3A1F /* FirebaseStorage in Frameworks */,
@@ -214,10 +212,10 @@
 				6586315E2943132A00B712DB /* Model */,
 				6586315D2943130400B712DB /* View */,
 				658631482942FE6200B712DB /* HerbalStoreApp.swift */,
+				65FAAA86297A3E54004F57A9 /* Persistence.swift */,
 				65FAAEA1296CE24C002E0E61 /* StoreConfiguration.storekit */,
 				6586314C2942FE6400B712DB /* Assets.xcassets */,
 				6586314E2942FE6400B712DB /* Preview Content */,
-				65FAAA86297A3E54004F57A9 /* Persistence.swift */,
 			);
 			path = HerbalStore;
 			sourceTree = "<group>";
@@ -368,7 +366,6 @@
 				65FE3D7729765B66006A3A1F /* FirebaseFirestore */,
 				65FE3D7929765B80006A3A1F /* FirebaseFunctions */,
 				65FE3D8729766DC3006A3A1F /* FirebaseFirestoreSwift */,
-				65FE3D8A29769CD6006A3A1F /* Kingfisher */,
 			);
 			productName = HerbalStore;
 			productReference = 658631452942FE6200B712DB /* HerbalStore.app */;
@@ -400,7 +397,6 @@
 			mainGroup = 6586313C2942FE6200B712DB;
 			packageReferences = (
 				65D49B5E297630290047AB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				65FE3D8929769CD5006A3A1F /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 658631462942FE6200B712DB /* Products */;
 			projectDirPath = "";
@@ -691,14 +687,6 @@
 				minimumVersion = 9.0.0;
 			};
 		};
-		65FE3D8929769CD5006A3A1F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -726,11 +714,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 65D49B5E297630290047AB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
-		};
-		65FE3D8A29769CD6006A3A1F /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 65FE3D8929769CD5006A3A1F /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 

@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Kingfisher
 
 struct SettingHeaderView: View {
     
@@ -41,9 +40,9 @@ struct SettingHeaderView: View {
             Button(action: {
                 showImagePicker.toggle()
             }) {
-                if let profileImageURL = user.profileImageURL{
-                    ZStack{
-                        KFImage(URL(string: profileImageURL))
+                AsyncImage(url: user.userImageURL) { image in
+                    ZStack {
+                        image
                             .resizable()
                             .scaledToFill()
                             .frame(width:60,height: 60)
@@ -59,24 +58,51 @@ struct SettingHeaderView: View {
                             .offset(y:15)
                     }
                     
-                }else{
-                    ZStack(alignment: .center){
-                        Image(systemName: "person.circle")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 60, height: 60)
-                            .foregroundColor(Color(.systemGray3))
-                            .padding(.leading)
-                        Text("画像を変更")
-                            .font(.system(size: 8))
-                            .foregroundColor(.white)
-                            .frame(width: 45,height: 15)
-                            .background {
-                                Color.black.opacity(0.6)
-                            }
-                            .offset(x:8,y:15)
-                    }
+                } placeholder: {
+                    Image(systemName: "person.circle")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 60, height: 60)
+                        .foregroundColor(Color(.systemGray3))
+                        .padding(.leading)
                 }
+
+//                if let profileImageURL = user.profileImageURL{
+//                    ZStack{
+//                        KFImage(URL(string: profileImageURL))
+//                            .resizable()
+//                            .scaledToFill()
+//                            .frame(width:60,height: 60)
+//                            .padding(.leading)
+//                            .clipShape(Circle())
+//                        Text("画像を変更")
+//                            .font(.system(size: 8))
+//                            .foregroundColor(.white)
+//                            .frame(width: 45,height: 15)
+//                            .background {
+//                                Color.black.opacity(0.6)
+//                            }
+//                            .offset(y:15)
+//                    }
+//
+//                }else{
+//                    ZStack(alignment: .center){
+//                        Image(systemName: "person.circle")
+//                            .resizable()
+//                            .scaledToFill()
+//                            .frame(width: 60, height: 60)
+//                            .foregroundColor(Color(.systemGray3))
+//                            .padding(.leading)
+//                        Text("画像を変更")
+//                            .font(.system(size: 8))
+//                            .foregroundColor(.white)
+//                            .frame(width: 45,height: 15)
+//                            .background {
+//                                Color.black.opacity(0.6)
+//                            }
+//                            .offset(x:8,y:15)
+//                    }
+//                }
             }.sheet(isPresented: $showImagePicker,onDismiss: loadImage) {
                 ImagePicker(image: $selectedImage)
             }
