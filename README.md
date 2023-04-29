@@ -1,8 +1,8 @@
-HerbalStore(生薬を購入するECアプリ)
+## HerbalStore(生薬を購入するECアプリ)
 
-<img width="735" alt="ポートフォリオ①" src="https://user-images.githubusercontent.com/89124336/235298451-eb1c4a3f-44fd-4551-9cb3-db65fcc149f7.png">
+<img width="650" alt="ポートフォリオ①" src="https://user-images.githubusercontent.com/89124336/235298451-eb1c4a3f-44fd-4551-9cb3-db65fcc149f7.png">
 
-■概要
+## ■概要
 
 このアプリは、女性に特有の症状や悩みに有効な生薬を購入するためのECアプリです。
 
@@ -12,11 +12,11 @@ HerbalStore(生薬を購入するECアプリ)
 
 カートに追加した商品の購入や定期購入の課金機能をStorekitにて実装しています。
 
-ユーザ情報・購入履歴・お気に入り商品はfirebaseで管理しています。お問い合わせフォームはGoogleFormにて作成しています。
+ユーザ情報・購入履歴・お気に入り商品はFirebaseで管理しています。お問い合わせフォームはGoogleFormにて作成しています。
 
 このアプリは、MVVMパターンを採用して開発しており、SwiftUIを使用しています。
 
-■仕様
+## ■仕様
 
 ・商品の選択・カートへの追加
 
@@ -28,7 +28,7 @@ HerbalStore(生薬を購入するECアプリ)
 
 ・お問い合わせフォーム(GoogleForm)
 
-■使用技術
+## ■使用技術
 
 ・言語: Swift(SwiftUI)
 
@@ -36,13 +36,13 @@ HerbalStore(生薬を購入するECアプリ)
 
 ・使用ツール・ライブラリ: Xcode,Github,SwiftPackageManager
 
-■動作環境
+## ■動作環境
 
-Xcode 13以上
+Xcode 13.0以上
 
-iOS 15以上
+iOS 15.0以上
 
-■連絡先
+## ■連絡先
 
 ご質問やご意見がある場合は、以下のメールアドレスにお問い合わせください。
 
